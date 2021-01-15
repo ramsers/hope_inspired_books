@@ -1,0 +1,147 @@
+
+.navbar {
+    height: 100px;
+    background-color: #FDF5ED;
+}
+.navbar-logo {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    width: 100px;
+}
+
+.navbar a {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+/* @media screen and (min-width:320px) and (max-width: 992px) {
+        .navbar-nav {
+            
+        }
+} */
+
+.banner-ctn {
+    min-height: 70vh;
+    background-image: url('banner-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 5rem;
+}
+.banner {
+    background-color: #f07167;
+    height: 180px !important;
+    margin-top: 4rem;
+}
+.banner-img {
+    min-width: 140px;
+    max-width: 285px;
+}
+
+@media screen and (max-width: 992px) {
+   .banner-img {
+       max-width: 150px;
+   }
+}
+.banner-book{
+    /* width: 100px; */
+}
+
+.banner-text {
+    color: #F3775E;
+    font-weight: 600;
+    padding: 0 100px;
+    line-height: 30px;
+}
+@media screen and (max-width: 992px) {
+    .banner-text {
+        padding: 0 5px;
+    }
+}
+.banner-row {
+    /* height: 70vh; */
+}
+.banner-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #9F9C87;
+}
+.banner-text p {
+    font-size: 24px;
+}
+.banner-cta-text {
+    color: white;
+    line-height: 30px;
+}
+.banner-btn {
+    min-height: 40px;
+    padding: 0 30px;
+}
+
+.about-ctn h2 {
+    border-bottom: 2px solid white;
+    color: white;
+}
+.about-ctn p, .about-ctn span {
+    line-height: 18px;
+    color: white;
+}
+
+.about-ctn .col-1 {
+    background-image: url("peggy_sue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about-ctn .col-2 {
+    background-color: #7FC4D4;
+}
+
+.books-ctn {
+    background-color: #FCF9F1;
+}
+
+.books-title {
+    color: #F3775E;
+}
+
+.books-ctn .banner-btn {
+    color: #F3775E;
+    border-color: #F3775E;
+    border: 2px solid;
+    font-weight: 600;
+}
+
+
+
+@media screen and (min-width:992px) {
+    .col-2 {
+        border-left: 1px solid grey;
+    }
+}
+
+.btn-warning {
+    min-height: 50px;
+    padding: 0 40px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.footer-ctn {
+    height: 200px;
+    background-color:  #7FC4D4;
+}
+
+.footer-img {
+    width: 75px;
+}
+
+footer p, footer span {
+    color: white;
+}
+
+
+/* font-family: 'Balsamiq Sans', cursive; */
+/* font-family: 'Barlow', sans-serif; */
