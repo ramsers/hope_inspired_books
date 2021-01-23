@@ -50,7 +50,9 @@
     background-color: rgb(252, 249, 241);
 }
 
-.books-title {
+
+
+#books h2, .books-title {
     color: rgb(243, 119, 94);
 }
 
