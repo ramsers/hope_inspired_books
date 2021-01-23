@@ -67,9 +67,10 @@
     background-color: rgb(127, 196, 212);
 }
 .footer img {
-    max-width: 115px;
+    max-height: 123px;
 }
 
 .footer p {
     color: White;
+    font-size: 12px;
 }
